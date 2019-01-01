@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>POO.Constructori</StartupObject>
+    <StartupObject>POO.InlantuireaConstructorilor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

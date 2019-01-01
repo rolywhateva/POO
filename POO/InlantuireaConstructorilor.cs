@@ -31,18 +31,21 @@ namespace POO
             public Persoana(string nume)
                 :this(nume,0)
             {
-
+                Console.WriteLine("Constructorul 1");
             }
             public Persoana(int varsta)
                 :this("",varsta)
             {
-
+                Console.WriteLine("Constructorul  2");
             }
             
          
         }
         static void Main()
         {
+            Persoana p = new Persoana("Fata");
+            Persoana q = new Persoana(18);
+            Console.ReadKey();
             return;
         }
     }
