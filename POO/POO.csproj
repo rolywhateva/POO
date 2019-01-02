@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>POO.Destructor</StartupObject>
+    <StartupObject>POO.Proprietati</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
