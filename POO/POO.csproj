@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>POO.Proprietati</StartupObject>
+    <StartupObject>Inheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,10 +49,13 @@
     <Compile Include="CuvantulStatic.cs" />
     <Compile Include="Deconstructori.cs" />
     <Compile Include="Destructor.cs" />
+    <Compile Include="Inheritance.cs" />
     <Compile Include="InlantuireaConstructorilor.cs" />
     <Compile Include="PillarsOfOOP.cs" />
+    <Compile Include="Polymorphism.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proprietati.cs" />
+    <Compile Include="ReadonlyConstant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
