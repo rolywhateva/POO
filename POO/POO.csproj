@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Inheritance</StartupObject>
+    <StartupObject>POO.InterfataIClonable</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,11 +46,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constructori.cs" />
+    <Compile Include="CustomExceptions.cs" />
     <Compile Include="CuvantulStatic.cs" />
     <Compile Include="Deconstructori.cs" />
     <Compile Include="Destructor.cs" />
+    <Compile Include="Exceptii.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="InlantuireaConstructorilor.cs" />
+    <Compile Include="InterfataIClonable.cs" />
+    <Compile Include="InterfataIEnumerable.cs" />
+    <Compile Include="Interfete.cs" />
     <Compile Include="PillarsOfOOP.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

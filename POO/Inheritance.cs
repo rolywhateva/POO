@@ -27,7 +27,7 @@ using System.Threading.Tasks;
         {
             this.typeofsword = typeofsword;
         }
-        public  void    Attack()
+        public  override void    Attack()
         {
             Console.WriteLine($"{name} proudly swings his {typeofsword} sword");
         }
@@ -41,7 +41,7 @@ class mage :character
     {
         this.typeofwand = typeofwand;
     }
-    public   void Attack()
+    public override   void Attack()
     {
         Console.WriteLine($"{name} casts a spell with their {typeofwand} wand");
     }
