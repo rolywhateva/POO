@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA4249F9-0225-4A4B-BCFC-9AF079401395}</ProjectGuid>
+    <ProjectGuid>{39BD3B74-DBC6-4475-9E3A-9103189574FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>POO</RootNamespace>
-    <AssemblyName>POO</AssemblyName>
+    <RootNamespace>ProgramareaGenerica</RootNamespace>
+    <AssemblyName>ProgramareaGenerica</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>POO.InterfataIComparable</StartupObject>
+    <StartupObject>ProgramareaGenerica.FunctiiSablon</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,23 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constructori.cs" />
-    <Compile Include="CustomExceptions.cs" />
-    <Compile Include="CuvantulStatic.cs" />
-    <Compile Include="Deconstructori.cs" />
-    <Compile Include="Destructor.cs" />
-    <Compile Include="Exceptii.cs" />
-    <Compile Include="Inheritance.cs" />
-    <Compile Include="InlantuireaConstructorilor.cs" />
-    <Compile Include="InterfataIClonable.cs" />
-    <Compile Include="InterfataIComparable.cs" />
-    <Compile Include="InterfataIEnumerable.cs" />
-    <Compile Include="Interfete.cs" />
-    <Compile Include="PillarsOfOOP.cs" />
-    <Compile Include="Polymorphism.cs" />
+    <Compile Include="ClasaGenerica.cs" />
+    <Compile Include="Dictionar.cs" />
+    <Compile Include="FunctiiSablon.cs" />
+    <Compile Include="ListeGenerice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proprietati.cs" />
-    <Compile Include="ReadonlyConstant.cs" />
+    <Compile Include="StivaSiCoada.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
