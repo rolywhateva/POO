@@ -14,7 +14,7 @@ namespace POO
         public  int Age { get; set; }
         public static IComparer CompareByName
         {
-            get { return new personNameComparer(); }
+            get { return new PersonNameComparer(); }
         }
         public person(string Name, int Age)
         {
@@ -41,8 +41,8 @@ namespace POO
         
 
     }
-    //Cand vreau sa pot sa sortez in mai multe moduri == > IComparer
-    class personNameComparer : IComparer
+    //Cand vreau sa pot   sorta in mai multe moduri == > IComparer
+    class PersonNameComparer : IComparer
     {
         int IComparer.Compare(object x, object y)
         {

@@ -10,7 +10,7 @@ namespace POO
     {
         //Cu ajutorul  lui"this", se pot inlantui constructori
         //astfel, se ia constructorul cu cele mai multe parametrii
-        //si asta este apelat inainte oricarui alt 
+        //si asta este apelat inainte oricarui alt  constructor
 
         class Persoana
         {

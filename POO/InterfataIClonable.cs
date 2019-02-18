@@ -23,7 +23,7 @@ namespace POO
         }
         public object Clone()
         {
-            //Copia
+            //Copierea
             Point newPoint = (Point)this.MemberwiseClone();
              //Completarea
             PointDescription currentDesc = new PointDescription();

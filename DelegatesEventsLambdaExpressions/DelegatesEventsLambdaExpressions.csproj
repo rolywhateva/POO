@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA4249F9-0225-4A4B-BCFC-9AF079401395}</ProjectGuid>
+    <ProjectGuid>{8F7540D5-66D5-4EF1-B763-659D016062D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>POO</RootNamespace>
-    <AssemblyName>POO</AssemblyName>
+    <RootNamespace>DelegatesEventsLambdaExpressions</RootNamespace>
+    <AssemblyName>DelegatesEventsLambdaExpressions</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,10 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>POO.ConversionDefining</StartupObject>
-  </PropertyGroup>
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
+    <StartupObject>DelegatesEventsLambdaExpressions.GenericEventHandler</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,27 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constructori.cs" />
-    <Compile Include="ConversionDefining.cs" />
-    <Compile Include="CustomExceptions.cs" />
-    <Compile Include="CuvantulStatic.cs" />
-    <Compile Include="Deconstructori.cs" />
-    <Compile Include="Delegate.cs" />
-    <Compile Include="Destructor.cs" />
-    <Compile Include="Exceptii.cs" />
-    <Compile Include="Indexatori.cs" />
-    <Compile Include="Inheritance.cs" />
-    <Compile Include="InlantuireaConstructorilor.cs" />
-    <Compile Include="InterfataIClonable.cs" />
-    <Compile Include="InterfataIComparable.cs" />
-    <Compile Include="InterfataIEnumerable.cs" />
-    <Compile Include="Interfete.cs" />
-    <Compile Include="PillarsOfOOP.cs" />
-    <Compile Include="Polymorphism.cs" />
+    <Compile Include="ActionAndFunc.cs" />
+    <Compile Include="CustomEventArgs.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="EventType.cs" />
+    <Compile Include="GenericDelegates.cs" />
+    <Compile Include="GenericEventHandler.cs" />
+    <Compile Include="LambdaExpressions.cs" />
+    <Compile Include="NotificationsAndDelegates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proprietati.cs" />
-    <Compile Include="ReadonlyConstant.cs" />
-    <Compile Include="SupraincarcareOperator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
