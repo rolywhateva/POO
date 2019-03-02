@@ -54,14 +54,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="ActionAdventureRPGClasses.Troll">
-    <Position X="6" Y="7.5" Width="1.5" />
+    <Position X="6" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Troll.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ActionAdventureRPGClasses.Knight">
-    <Position X="7.75" Y="7.5" Width="1.5" />
+    <Position X="7.75" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Knight.cs</FileName>
